@@ -3,6 +3,7 @@ let statusMessageEl = document.querySelector('[data-element="status-message"]');
 // let incremenetEl = document.querySelector('[data-element="increment-target"]');
 // let decrementEl = document.querySelector('[data-element="decrement-target"]');
 // let reloadButtonEl = document.querySelector('[data-element="button-reload"]');
+// small update
 
 const min = 1;
 const max = 10;

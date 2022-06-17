@@ -6,7 +6,7 @@ let statusMessageEl = document.querySelector('[data-element="status-message"]');
 
 const min = 1;
 const max = 10;
-const delayTime = 300;
+const delayTime = 800;
 let target = 6;
 let index1, index2;
 

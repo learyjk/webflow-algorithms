@@ -1,0 +1,21 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "algorith visualizer",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./bin/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webflow",
+    "algorithms",
+    "nocode"
+  ],
+  "author": "Keegan Leary",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.44"
+  }
+}

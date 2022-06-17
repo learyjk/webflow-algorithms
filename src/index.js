@@ -57,6 +57,7 @@ const twoSums = async (numbers, target) => {
     numbers[i].classList.remove("current");
   }
   if (foundSolution) {
+    equalsElement.classList.remove('error')
     equalsElement.classList.add('success')
     statusMessageEl.textContent = `Solution at indices ${index1} and ${index2}.`
   } else {

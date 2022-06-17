@@ -1,6 +1,3 @@
-//import delay from './utils/delay'
-import delay from './utils/delay'
-
 let targetEl = document.querySelector('[data-element="target"]');
 let statusMessageEl = document.querySelector('[data-element="status-message"]');
 // let incremenetEl = document.querySelector('[data-element="increment-target"]');
@@ -68,6 +65,12 @@ const twoSums = async (numbers, target) => {
   statusMessageEl.classList.remove('hide')
 };
 
+const delay = (time) => {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
+
+twoSums(numbers, target);
+
 // incremenetEl.addEventListener('click', (event) => {
 //   target += 1;
 //   targetEl.textContent = target.toString()
@@ -82,7 +85,7 @@ const twoSums = async (numbers, target) => {
 //   window.location.reload()
 // })
 
-twoSums(numbers, target);
+
 
 // var twoSum = function(nums, target) {
 
